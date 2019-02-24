@@ -36,3 +36,9 @@ On peut voir que le 192.168.180.2 est réapparut qui est l’ip de mon adaptater
 
 ![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_4.PNG?raw=true "Title")
 
+
+## II. Communication simple entre deux machines
+
+Paquet ping2 :
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_5.PNG?raw=true "Title")
