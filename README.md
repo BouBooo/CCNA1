@@ -2,7 +2,7 @@
 
 ## TP 1 - Remise dans le bain
 
-##### 30 ne marchait pas sur vm ware et donc pour ce TP ce sera /29
+##### /30 ne marchait pas sur vm ware et donc pour ce TP ce sera /29
 
 Combien y a-t-il d'adresses disponibles dans un /24 ?
 254
@@ -43,8 +43,10 @@ On peut voir que le 192.168.180.2 est réapparut qui est l’ip de mon adaptater
 
 Paquet ping2 :
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_5.PNG?raw=true "Title")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_5.PNG?raw=true "test ping")
 
 Netcat:
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_6.PNG?raw=true "Title")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_6.PNG?raw=true "Netcat")
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_7.PNG?raw=true "ss")
