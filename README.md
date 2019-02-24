@@ -2,6 +2,8 @@
 
 ## TP 1 - Remise dans le bain
 
+*/30 ne marchait pas sur vm ware et donc pour ce TP ce sera /29
+
 Combien y a-t-il d'adresses disponibles dans un /24 ?
 254
 Combien y a-t-il d'adresses disponibles dans un /30 ?
