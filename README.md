@@ -5,9 +5,10 @@
 ##### /30 ne marchait pas sur vm ware et donc pour ce TP ce sera /29
 
 Combien y a-t-il d'adresses disponibles dans un /24 ?
-254
+> 254
+
 Combien y a-t-il d'adresses disponibles dans un /30 ?
-2
+> 2
 
 Il permet d’avoir 4 adresses dont deux utilisables, soit-on peu faire un réseau de deux machines
 
