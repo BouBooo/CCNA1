@@ -66,3 +66,12 @@ On peut même récupérer les messages transmis et on voit des paquet UDP en plu
 
 ![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_9.PNG?raw=true "handshake")
 
+
+On enlève la règle du pare-feu :
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_10.PNG?raw=true "firewall")
+
+
+## III. Routage statique simple
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_11.PNG?raw=true "firewall")
