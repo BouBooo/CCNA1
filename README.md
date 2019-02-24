@@ -50,3 +50,19 @@ Netcat:
 ![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_6.PNG?raw=true "Netcat")
 
 ![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_7.PNG?raw=true "ss")
+
+
+On apllique le filtre udp sur wireshark :
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_8.PNG?raw=true "udp filter")
+
+
+On peut même récupérer les messages transmis et on voit des paquet UDP en plus.
+
+
+### Tcp :
+3-way handshake TCP :
+
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_9.PNG?raw=true "handshake")
+
