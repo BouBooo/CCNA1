@@ -15,7 +15,7 @@ Il permet d’avoir 4 adresses dont deux utilisables, soit-on peu faire un rése
 ip neigh show :
 On affiche les voisins à notre ip
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_1.PNG?raw=true "Title")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_1/img/ccna_1.PNG?raw=true "Title")
 
 
 
