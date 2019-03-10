@@ -15,7 +15,7 @@ Il permet d’avoir 4 adresses dont deux utilisables, soit-on peu faire un rése
 ip neigh show :
 On affiche les voisins à notre ip
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_1.PNG?raw=true "Title")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_1/img/ccna_1.PNG?raw=true "Title")
 
 
 
@@ -23,37 +23,37 @@ Vider la table ARP :
 sudo ip neigh flush all
 ip neigh show
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_2.PNG?raw=true "Title")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_1/img/ccna_2.PNG?raw=true "Title")
 
 
 On re ping l’hôte:
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_3.PNG?raw=true "Title")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_1/img/ccna_3.PNG?raw=true "Title")
 
 On peut voir que le 192.168.180.2 est réapparut qui est l’ip de mon adaptater vmWare.
 
 
 ### Capture réseau
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_4.PNG?raw=true "Title")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_1/img/ccna_4.PNG?raw=true "Title")
 
 
 ## II. Communication simple entre deux machines
 
 Paquet ping2 :
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_5.PNG?raw=true "test ping")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_1/img/ccna_5.PNG?raw=true "test ping")
 
 Netcat:
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_6.PNG?raw=true "Netcat")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_1/img/ccna_6.PNG?raw=true "Netcat")
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_7.PNG?raw=true "ss")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_1/img/ccna_7.PNG?raw=true "ss")
 
 
 On apllique le filtre udp sur wireshark :
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_8.PNG?raw=true "udp filter")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_1/img/ccna_8.PNG?raw=true "udp filter")
 
 
 On peut même récupérer les messages transmis et on voit des paquet UDP en plus.
@@ -63,14 +63,14 @@ On peut même récupérer les messages transmis et on voit des paquet UDP en plu
 3-way handshake TCP :
 
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_9.PNG?raw=true "handshake")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_1/img/ccna_9.PNG?raw=true "handshake")
 
 
 On enlève la règle du pare-feu :
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_10.PNG?raw=true "firewall")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_1/img/ccna_10.PNG?raw=true "firewall")
 
 
 ## III. Routage statique simple
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/img/ccna_11.PNG?raw=true "firewall")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_1/img/ccna_11.PNG?raw=true "firewall")
