@@ -47,6 +47,29 @@ sudo sysctl -w net.ipv4.conf.all.forwarding=1
 
 ![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_1.PNG?raw=true "")
 
-###### Serveur DHCP :
+##### Serveur DHCP :
 
 ![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_2.PNG?raw=true "")
+
+
+
+##### Server ntp :
+###### Chronyc sources
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_3.PNG?raw=true "")
+
+
+##### Chronyc tracking :
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_4.PNG?raw=true "")
+
+```bash
+systemctl status chronyd
+```
+
+> ![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_5.PNG?raw=true "")
+
+
+
+
+
