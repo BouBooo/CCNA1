@@ -44,3 +44,5 @@ Pour client 1 : default via 10.2.1.254 dev ens37
 sudo sysctl -w net.ipv4.conf.all.forwarding=1
 ```
 
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_1.PNG?raw=true "")
