@@ -46,3 +46,7 @@ sudo sysctl -w net.ipv4.conf.all.forwarding=1
 
 
 ![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_1.PNG?raw=true "")
+
+###### Serveur DHCP :
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_2.PNG?raw=true "")
