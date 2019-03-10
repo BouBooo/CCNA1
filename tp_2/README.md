@@ -71,5 +71,23 @@ systemctl status chronyd
 
 
 
+#### Sur client 1:
+```bash
+[toor@client1 ~]$ chronyc sources
+240 Number of sources = 1
+MS Name/IP address         Stratum Poll Reach LastRx Last sample               
+===============================================================================
+^? router1                       2   6     1     2    +73us[  +73us] +/-   23ms
+```
+
+##### Serveur Nginx status :
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_6.PNG?raw=true "")
+
+
+##### ```bash YES```
+
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_6.PNG?raw=true "")
 
 
