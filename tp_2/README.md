@@ -85,9 +85,15 @@ MS Name/IP address         Stratum Poll Reach LastRx Last sample
 ![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_6.PNG?raw=true "")
 
 
-##### ```bash YES```
+##### ```bash sudo ss -altnp4 ```
 
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_6.PNG?raw=true "")
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_7.PNG?raw=true "")
+
+
+
+##### On curl l ip du server :
+
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_2/img/ccna2_8.PNG?raw=true "")
 
 
