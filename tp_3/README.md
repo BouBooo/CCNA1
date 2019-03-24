@@ -16,6 +16,7 @@
 
 ## Sommaire
 
+<<<<<<< HEAD
  ## - I. Manipulation de switches et de VLAN
 
  ## - II. Manipulation simple de routeurs
@@ -23,3 +24,62 @@
  ## - III. Mise en place d'OSPF
 
  ## - IV. Lab Final
+=======
+ ### [I.Manipulation de switches et de VLAN](#1)</a>
+
+ ### [II. Manipulation simple de routeurs](#2)</a>
+
+ ### [III. Mise en place d'OSPF](#3)</a>
+
+ ### [IV. Lab Final](#4)</a>
+
+
+
+## <a name="1">Manipulation de switches et de VLAN</a>
+
+```bash
+client1           SW1                  SW 2
++----+         +-------+            +-------+
+|    +---------+       +------------+       |
++----+         +---+---+            +---+---+
+                   |                    |
+                   |                    |
+                   |                    |
+                   |                    |
+                +--+-+               +--+-+
+                |    |               |    |
+                +----+               +----+
+               client2               client3
+
+```
+
+## <a name="2"> Manipulation simple de routeurs</a>
+
+```bash
+                           10.2.12.0/30
+
+                  router1                router2
+client1          +------+               +------+
++----+.10        |      |.1           .2|      |.254     .10+----+
+|    +-----------+      +---------------+      +------------+    |
++----+           +------+               +------+            +----+
+                     |.254                                  server1
+                     |
+                     |
+                     |
+   10.2.1.0/24       |                         10.2.2.0/24
+                     |.11
+                  +----+
+                  |    |
+                  +----+
+```
+
+
+## <a name="3">Mise en place d'OSPF</a>
+
+
+
+## <a name="4">IV. Lab Final</a>
+
+
+>>>>>>> origin/master
