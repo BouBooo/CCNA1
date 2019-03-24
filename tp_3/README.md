@@ -16,7 +16,7 @@
 
 ## Sommaire
 
- ### I. [Manipulation de switches et de VLAN](link 1)
+ ### <a name="1">I. Manipulation de switches et de VLAN</a>
 
  ### <a name="2">II. Manipulation simple de routeurs</a>
 
@@ -37,3 +37,5 @@
 
 
 ### IV. Lab Final
+
+[Duck Duck Go](https://duckduckgo.com)
