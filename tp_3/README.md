@@ -210,9 +210,9 @@ rtt min/avg/max/mdev = 11.296/20.185 ms
 
 
 ## <a name="3">Mise en place d'OSPF</a>
- <a name="img" width="50">
+
 ![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/lab3.png?raw=true "")
- </a>
+
 
 #### Ping de Client1 vers la gateway :
 
