@@ -2,7 +2,7 @@
 
 
  1. GNS3 :
-    1. Virtualiser des routeurs
+    - Virtualiser des routeurs
 
 2. Routeurs
     - Gestion du routage entre les différents réseaux
