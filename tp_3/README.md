@@ -68,7 +68,7 @@ client1          +------+               +------+
 
 ## <a name="3">Mise en place d'OSPF</a>
 
-![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_3/img/lab3.PNG?raw=true "")
+![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/lab3.png?raw=true "")
 
 
 ## <a name="4">IV. Lab Final</a>
