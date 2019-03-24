@@ -5,8 +5,8 @@
     1. Virtualiser des routeurs
 
 2. Routeurs
-    1. Gestion du routage entre les différents réseaux
-    2. Permettre un accès à internet
+    - Gestion du routage entre les différents réseaux
+    - Permettre un accès à internet
     3. Les "routeurs" seront des Cisco 3640
 3. Switches
     1. Gestion des VLANs
