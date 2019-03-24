@@ -44,6 +44,96 @@ client1           SW1                  SW 2
 
 ```
 
+###### client1.lab1.tp3 peut joindre client3.lab1.tp3 :
+
+```bash
+[root@client1 ~]# ping -c 4 10.1.1.5
+PING 10.1.1.5 (10.1.1.5) 56(84) bytes of data.
+64 bytes from 10.1.1.5: icmp_seq=1 ttl=64 time=0.281 ms
+64 bytes from 10.1.1.5: icmp_seq=2 ttl=64 time=0.549 ms
+64 bytes from 10.1.1.5: icmp_seq=3 ttl=64 time=0.554 ms
+64 bytes from 10.1.1.5: icmp_seq=4 ttl=64 time=0.483 ms
+
+--- 10.1.1.5 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3007ms
+rtt min/avg/max/mdev = 0.281/0.466/0.554/0.113 ms
+[root@client1 ~]#
+
+```
+
+###### Création du VLAN10
+```bash
+SW1#conf t
+SW1(config)#vlan 10
+SW1(config-vlan)#name VLAN10
+SW1(config-vlan)#exit
+SW1(config)#interface Ethernet 0/0
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport access vlan 10
+```
+
+###### Création du VLAN20
+```bash
+SW1(config)#vlan 20
+SW1(config-vlan)#name VLAN20
+SW1(config-vlan)#exit
+SW1(config)#interface Ethernet 0/1
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport access vlan 20
+```
+
+###### Création du trunk:
+```bash
+IOU1(config)#interface Ethernet 0/0
+IOU1(config-if)#switchport trunk encapsulation dot1q
+IOU1(config-if)#switchport mode trunk
+```
+
+#### On s’occupe du VLAN 10 de SW2 :
+```bash
+IOU1#conf t
+IOU1(config)#vlan 10
+IOU1(config-vlan)#name VLAN10
+IOU1(config)#interface Ethernet 0/1
+IOU1(config-if)#switchport mode access
+IOU1(config-if)#switchport access vlan 10
+```
+
+##### Création du trunk:
+```bash
+IOU1(config)#interface Ethernet 0/0
+IOU1(config-if)#switchport trunk encapsulation dot1q
+IOU1(config-if)#switchport mode trunk
+```
+
+###### Teste ping:
+```bash
+[root@client1 ~]$ ping 10.1.1.3
+PING 10.1.1.3 (10.1.1.3) 56(84) bytes of data.
+64 bytes from 10.1.1.3: icmp_seq=1 ttl=64 time=2.50 ms
+64 bytes from 10.1.1.3: icmp_seq=2 ttl=64 time=1.45 ms
+64 bytes from 10.1.1.3: icmp_seq=3 ttl=64 time=1.45 ms
+^C
+--- 10.1.1.3 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 3000ms
+rtt min/avg/max/mdev = 0.380/0.407/0.437 ms
+
+[root@client1 ~]$ ping 10.1.1.2
+PING 10.1.1.2 (10.1.1.2) 56(84) bytes of data.
+From 10.1.1.1 icmp_seq=1 Destination Host Unreachable
+From 10.1.1.1 icmp_seq=2 Destination Host Unreachable
+From 10.1.1.1 icmp_seq=3 Destination Host Unreachable
+From 10.1.1.1 icmp_seq=4 Destination Host Unreachable
+^C
+--- 10.1.1.2 ping statistics ---
+5 packets transmitted, 0 received, +4 errors, 100% packet loss, time 3012ms
+pipe 4
+```
+
+Comme prévu le client2 est injoignable.
+
+
+
 ## <a name="2"> Manipulation simple de routeurs</a>
 
 ```bash
