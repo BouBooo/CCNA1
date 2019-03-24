@@ -16,14 +16,6 @@
 
 ## Sommaire
 
- ## - I. Manipulation de switches et de VLAN
-
- ## - II. Manipulation simple de routeurs
-
- ## - III. Mise en place d'OSPF
-
- ## - IV. Lab Final
-
  ### [I.Manipulation de switches et de VLAN](#1)</a>
 
  ### [II. Manipulation simple de routeurs](#2)</a>
@@ -76,6 +68,7 @@ client1          +------+               +------+
 
 ## <a name="3">Mise en place d'OSPF</a>
 
+![Alt text](https://github.com/BouBooo/CCNA1/blob/master/tp_3/img/lab3.PNG?raw=true "")
 
 
 ## <a name="4">IV. Lab Final</a>
