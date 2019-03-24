@@ -156,9 +156,88 @@ client1          +------+               +------+
 ```
 
 
+### Les clients et serveurs peuvent joindre leurs gateways respectives :
+
+#### Ping client2 vers gateway:
+
+```bash
+[root@client2 ~]$ ping 10.2.1.254
+PING 10.2.1.254 (10.2.1.254) 56(84) bytes of data.
+64 bytes from 10.2.1.254: icmp_seq=1 ttl=255 time=1.75 ms
+64 bytes from 10.2.1.254: icmp_seq=2 ttl=255 time=1.80 ms
+64 bytes from 10.2.1.254: icmp_seq=3 ttl=255 time=1.75 ms
+64 bytes from 10.2.1.254: icmp_seq=4 ttl=255 time=1.65 ms
+
+^C
+--- 10.2.1.254 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 4020ms
+rtt min/avg/max/mdev = 1.405/1.407/2.380/1.302 ms
+
+Ping client2 vers gateway:
+
+[root@server1 ~]$ ping 10.2.2.254
+PING 10.2.2.254 (10.2.2.254) 56(84) bytes of data.
+64 bytes from 10.2.2.254: icmp_seq=1 ttl=255 time=2.60 ms
+64 bytes from 10.2.2.254: icmp_seq=2 ttl=255 time=1.95 ms
+64 bytes from 10.2.2.254: icmp_seq=3 ttl=255 time=1.85 ms
+^C
+--- 10.2.2.254 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 3012ms
+rtt min/avg/max/mdev = 1.405/1.407/2.380/1.302 ms
+```
+
+#### On add les route sur le client 2 les 2 routeurs et le serveur 1.
+#### On test le ping :
+
+```bash
+On add les route sur le client 2 les 2 routeurs et le serveur 1.
+On test le ping :
+[root@server1 ~]$ ping 10.3.102.254
+PING 10.3.102.254 (10.3.102.254) 56(84) bytes of data.
+64 bytes from 10.3.102.254: icmp_seq=1 ttl=62 time=2.40 ms
+64 bytes from 10.3.102.254: icmp_seq=2 ttl=62 time=1.80 ms
+^C
+--- 10.3.102.254 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 2830ms
+rtt min/avg/max/mdev = 11.296/20.185 ms
+```
+
+
+
+
+
+
+
+
 ## <a name="3">Mise en place d'OSPF</a>
 
 ![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/lab3.png?raw=true "")
+
+#### Ping de Client1 vers la gateway :
+
+```bash
+[root@client1 ~]$ ping 10.3.101.254
+PING 10.3.101.254 (10.3.101.254) 56(84) bytes of data.
+64 bytes from 10.3.101.254: icmp_seq=1 ttl=255 time=54.2 ms
+64 bytes from 10.3.101.254: icmp_seq=2 ttl=255 time=22.4 ms
+^C
+--- 10.3.101.254 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 19.451/45.354/80.341 ms
+```
+
+#### Ping de serveur1 vers la gateway :
+```bash
+[root@serveur1 ~]$ ping 10.3.102.254
+PING 10.3.102.254 (10.3.102.254) 56(84) bytes of data.
+64 bytes from 10.3.102.254: icmp_seq=1 ttl=255 time=20.5 ms
+64 bytes from 10.3.102.254: icmp_seq=2 ttl=255 time=18.3 ms
+^C
+--- 10.3.102.254 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 18.021/18.032/35.872 ms
+```
+
 
 
 ## <a name="4">IV. Lab Final</a>
