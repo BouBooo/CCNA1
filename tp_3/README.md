@@ -130,7 +130,7 @@ From 10.1.1.1 icmp_seq=4 Destination Host Unreachable
 pipe 4
 ```
 
-###### Comme prévu le client2 est injoignable.
+> Comme prévu le client2 est injoignable.
 
 
 
