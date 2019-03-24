@@ -16,15 +16,15 @@
 
 ## Sommaire
 
- ### I. Manipulation de switches et de VLAN</a>
+ ### I. [Manipulation de switches et de VLAN](#1)</a>
  
  ### [Duck Duck Go](https://duckduckgo.com)
 
- ### <a name="2">II. Manipulation simple de routeurs</a>
+ ### II. Manipulation simple de routeurs</a>
 
- ### <a name="3">III. Mise en place d'OSPF</a>
+ ### III. Mise en place d'OSPF</a>
 
- ### <a name="4">IV. Lab Final</a>
+ ### IV. Lab Final</a>
 
 
 
@@ -32,12 +32,12 @@
 
 
 
-### Manipulation simple de routeurs
+### <a name="2"> Manipulation simple de routeurs</a>
 
 
-### Mise en place d'OSPF
+### <a name="3">Mise en place d'OSPF</a>
 
 
-### IV. Lab Final
+### <a name="4">IV. Lab Final</a>
 
-[Duck Duck Go](https://duckduckgo.com)
+
