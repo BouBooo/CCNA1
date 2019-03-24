@@ -26,16 +26,30 @@
 
 
 
-### <a name="1">Manipulation de switches et de VLAN</a>
+## <a name="1">Manipulation de switches et de VLAN</a>
+
+```bash
+client1           SW1                  SW 2
++----+         +-------+            +-------+
+|    +---------+       +------------+       |
++----+         +---+---+            +---+---+
+                   |                    |
+                   |                    |
+                   |                    |
+                   |                    |
+                +--+-+               +--+-+
+                |    |               |    |
+                +----+               +----+
+               client2               client3
+
+```
+
+## <a name="2"> Manipulation simple de routeurs</a>
 
 
-
-### <a name="2"> Manipulation simple de routeurs</a>
-
-
-### <a name="3">Mise en place d'OSPF</a>
+## <a name="3">Mise en place d'OSPF</a>
 
 
-### <a name="4">IV. Lab Final</a>
+## <a name="4">IV. Lab Final</a>
 
 
