@@ -61,7 +61,7 @@ rtt min/avg/max/mdev = 0.281/0.466/0.554/0.113 ms
 
 ```
 
-###### Création du VLAN10
+##### Création du VLAN10
 ```bash
 SW1#conf t
 SW1(config)#vlan 10
@@ -72,7 +72,7 @@ SW1(config-if)#switchport mode access
 SW1(config-if)#switchport access vlan 10
 ```
 
-###### Création du VLAN20
+##### Création du VLAN20
 ```bash
 SW1(config)#vlan 20
 SW1(config-vlan)#name VLAN20
@@ -82,14 +82,14 @@ SW1(config-if)#switchport mode access
 SW1(config-if)#switchport access vlan 20
 ```
 
-###### Création du trunk:
+##### Création du trunk:
 ```bash
 IOU1(config)#interface Ethernet 0/0
 IOU1(config-if)#switchport trunk encapsulation dot1q
 IOU1(config-if)#switchport mode trunk
 ```
 
-#### On s’occupe du VLAN 10 de SW2 :
+##### On s’occupe du VLAN 10 de SW2 :
 ```bash
 IOU1#conf t
 IOU1(config)#vlan 10
@@ -106,7 +106,7 @@ IOU1(config-if)#switchport trunk encapsulation dot1q
 IOU1(config-if)#switchport mode trunk
 ```
 
-###### Teste ping:
+##### Tests ping:
 ```bash
 [root@client1 ~]$ ping 10.1.1.3
 PING 10.1.1.3 (10.1.1.3) 56(84) bytes of data.
@@ -130,7 +130,7 @@ From 10.1.1.1 icmp_seq=4 Destination Host Unreachable
 pipe 4
 ```
 
-Comme prévu le client2 est injoignable.
+###### Comme prévu le client2 est injoignable.
 
 
 
