@@ -16,6 +16,7 @@
 
 ## Sommaire
 
+<<<<<<< HEAD
  ## - I. Manipulation de switches et de VLAN
 
  ## - II. Manipulation simple de routeurs
@@ -80,3 +81,5 @@ client1          +------+               +------+
 
 ## <a name="4">IV. Lab Final</a>
 
+
+>>>>>>> origin/master
