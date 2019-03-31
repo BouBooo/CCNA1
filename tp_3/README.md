@@ -409,5 +409,5 @@ switchport access vlan 10
 
 ![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/cmd_4.PNG?raw=true "")
 
-![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/C&D.PNG?raw=true "")
+![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/chd.PNG?raw=true "")
 
