@@ -245,7 +245,7 @@ rtt min/avg/max/mdev = 18.021/18.032/35.872 ms
 
 ### Config de L’OSPF
 
-![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/conf.png?raw=true "")
+![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/conf.PNG?raw=true "")
 
 ##### On met en place le triangle d’or
 
