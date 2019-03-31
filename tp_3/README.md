@@ -409,5 +409,17 @@ switchport access vlan 10
 
 ![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/cmd_4.PNG?raw=true "")
 
-![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/chd.PNG?raw=true "")
+![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/cdh.PNG?raw=true "")
 
+
+```bash
+[root@client1 ~]$ ping 8.8.8.8
+PING 8.8.8.8(8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=255 time=90 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=255 time=80 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=255 time=110 ms
+^C
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 7201ms
+rtt min/avg/max/mdev = 3.321/5.142/6.845/3.657 m
+```
