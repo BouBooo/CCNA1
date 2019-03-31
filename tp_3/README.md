@@ -387,6 +387,8 @@ description R3 to R1
 
 ![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/cmd_1.PNG?raw=true "")
 
+#### On add les routes sur r2 et on teste le ping :
+
 ![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/cmd_2.PNG?raw=true "")
 
 #### On configure le dhcp sur r2 :
@@ -405,7 +407,7 @@ switchport access vlan 10
 
 #### L'ip a bien était attribué par le dhcp
 
-![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/cmd_3.PNG?raw=true "")
+![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/cmd_4.PNG?raw=true "")
 
 ![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/C&D.PNG?raw=true "")
 
