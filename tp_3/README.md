@@ -243,3 +243,39 @@ rtt min/avg/max/mdev = 18.021/18.032/35.872 ms
 
 ## <a name="4">IV. Lab Final</a>
 
+### Config de L’OSPF
+
+![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/conf.png?raw=true "")
+
+##### On met en place le triangle d’or
+
+###### Config R1:
+
+```bash
+config t
+int loopback 0
+ip address 1.1.1.1 255.255.255.255
+no shut
+ip ospf 1 area 0
+description interface loopback
+exit
+end
+
+config t
+int f0/0
+ip address 10.0.0.1 255.255.255.252
+no shut
+ip ospf 1 area 0
+description R1 to R2
+end
+
+config t
+int f1/0
+ip address 10.0.0.5 255.255.255.252
+no shut
+ip ospf 1 area 0
+description R1 to R3
+end
+```
+
+
