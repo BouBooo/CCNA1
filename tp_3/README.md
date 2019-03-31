@@ -379,5 +379,27 @@ description R3 to R1
 
 #### On ajoute le dhcp sur r1
 
+![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/domain.PNG?raw=true "")
+
+#### On tente d’ajouter le domaine crée en windows server 
+
+#### On teste le ping vers google depuis r1
+
+![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/cmd_1.PNG?raw=true "")
+
+#### On configure le dhcp sur r2 :
+
+![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/cmd_2.PNG?raw=true "")
+
+##### Config du switch 1 :
+
+```bash
+config t
+int e0/0
+switchport trunk encapsluation dot1q
+switchport access vlan 10
+```
+
+
 
 
