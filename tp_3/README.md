@@ -247,9 +247,9 @@ rtt min/avg/max/mdev = 18.021/18.032/35.872 ms
 
 ![Alt text](https://github.com/BouBooo/CCNA_B2/blob/master/tp_3/img/conf.PNG?raw=true "")
 
-##### On met en place le triangle d’or
+#### On met en place le triangle d’or
 
-###### Config R1:
+##### Config R1:
 
 ```bash
 config t
@@ -281,7 +281,7 @@ description R1 to R3
 end
 ```
 
-###### Config R2:
+##### Config R2:
 
 ```bash
 config t
