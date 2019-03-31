@@ -260,7 +260,8 @@ ip ospf 1 area 0
 description interface loopback
 exit
 end
-
+```
+```bash
 config t
 int f0/0
 ip address 10.0.0.1 255.255.255.252
@@ -268,7 +269,9 @@ no shut
 ip ospf 1 area 0
 description R1 to R2
 end
+```
 
+```bash
 config t
 int f1/0
 ip address 10.0.0.5 255.255.255.252
@@ -277,5 +280,70 @@ ip ospf 1 area 0
 description R1 to R3
 end
 ```
+
+###### Config R2:
+
+```bash
+config t
+int f0/0
+ip address 10.0.0.2 255.255.255.252
+no shut
+ip ospf 1 area 0
+description R2 to R1
+end
+```
+
+```bash
+
+config t
+int f1/0
+ip address 10.0.0.9 255.255.255.252
+no shut
+ip ospf 1 area 0
+end
+```
+
+```bash
+config t
+int loopback 0
+ip address 2.2.2.2 255.255.255.255
+no shut
+ip ospf 1 area 0
+router ospf 1
+router-id 2.2.2.2
+end
+clear ip ospf process
+```
+
+##### Config R3:
+
+```bash
+config t
+int loopback 0
+ip address 3.3.3.3 255.255.255.255
+no shut 
+ip ospf 1 area 0
+end
+```
+
+```bash
+config t
+int f1/0
+ip address 10.0.0.10 255.255.255.252
+no shut
+ip ospf 1 area 0
+description R3 to R2
+end
+```
+
+```bash
+config t
+int f0/0
+ip address 10.0.0.6 255.255.255.252
+no shut
+ip ospf 1 area 0
+description R3 to R1
+```
+
 
 
