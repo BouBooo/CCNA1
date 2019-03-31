@@ -346,4 +346,38 @@ description R3 to R1
 ```
 
 
+##### Config R3:
+
+```bash
+config t
+int loopback 0
+ip address 3.3.3.3 255.255.255.255
+no shut 
+ip ospf 1 area 0
+end
+```
+
+```bash
+config t
+int f1/0
+ip address 10.0.0.10 255.255.255.252
+no shut
+ip ospf 1 area 0
+description R3 to R2
+end
+```
+
+```bash
+
+config t
+int f0/0
+ip address 10.0.0.6 255.255.255.252
+no shut
+ip ospf 1 area 0
+description R3 to R1
+```
+
+#### On ajoute le dhcp sur r1
+
+
 
